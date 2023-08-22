@@ -1,0 +1,39 @@
+* How does the internet work-
+
+* What is HTTP
+* Browsers and how they work
+* DNS and how it works
+* what is domain name
+* what is hosting
+* Javascript
+* Git
+* terminal usage
+* POSIX
+* Terminal commands
+* PostgresSQL
+* Mongodb
+* ORMs
+* ACID
+* Transactions
+* N+1 Problem
+* Normalization
+* Failure Modes
+* Profiling Perfor.
+* Database Indexes
+* REST
+* JSON APIs
+* SOAP
+* gRPC
+* GraphQL
+* Authentication API
+- OAuth
+- Basic Auth
+- Token Auth
+- JWT
+
+
+
+
+
+
+ 
