@@ -13,3 +13,12 @@
 > docker exec -it node-app bash         --- // Open bash for docker
 > docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image       ---// run docker
 
+
+
+
+
+
+--------------------------------------------------------------------------------
+> docker build .
+> docker build -t node-app-image .
+> docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image
