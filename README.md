@@ -25,3 +25,6 @@
 > docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image
 > docker rm node-app -f        ----// kill docker running
 > docker logs node-app         ----// run docker under nodemon
+
+> docker run -v ${pwd}:/app -v /app/node_modules -p 5000:5000 -d --name node-app node-app-image      ----// docker with a path node_modules
+
