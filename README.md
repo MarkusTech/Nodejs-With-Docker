@@ -7,7 +7,7 @@
 > docker run node-app-image             --- // Run docker
 > docker run -d --name node-app node-app-image
 > > docker ps                           --- // display docker
-> docker rm romantic_montalcini -f      --- // Delete names
+> docker rm romantic_montalcini -f      --- // Kill Docker container
 > docker run -p 5000:5000 -d --name node-app node-app-image      --// RUN DOCKER IMAGE
 > docker ps ------ and select the port
 > docker exec -it node-app bash         --- // Open bash for docker
