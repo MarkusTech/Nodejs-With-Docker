@@ -26,7 +26,11 @@
 > docker rm node-app -f        ----// kill docker running
 > docker logs node-app         ----// run docker under nodemon
 
->docker run -v ${pwd}:/app:ro -p 5000:5000 -d --name node-app node-app-image      ----// ro-(READ ONLY) added
+> docker run -v ${pwd}:/app:ro -p 5000:5000 -d --name node-app node-app-image      ----// ro-(READ ONLY) added
+> docker run -v ${pwd}:/app --env PORT=4000 -p 5000:4000 -d --name node-app node-app-image
+
+              ------------- Using node module ------
+> docker run -v ${pwd}:/app -v /app/node_modules --env-file ./.env -p 5000:4000 -d --name node-app node-app-image
 
 ---------------------------------------------------------------------------------
 --------------------- chose these if above is not running -----------------------
