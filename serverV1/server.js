@@ -7,7 +7,7 @@ import morgan from "morgan";
 
 // DOTENV CONFIG
 dotenv.config();
-const port = process.env.PORT;
+const port = process.env.PORT || 5000;
 
 // REST OBJECT
 const app = express();
