@@ -20,7 +20,7 @@ app.use(morgan("dev"));
 
 // REST GET METHOD
 app.get("/", (req, res) => {
-  res.send("Wenn Mark Recopelacion");
+  res.send("Wenn Mark Recopelacion!!!");
 });
 
 // EVENT LISTENER
