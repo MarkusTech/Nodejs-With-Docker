@@ -22,3 +22,4 @@
 > docker build .
 > docker build -t node-app-image .
 > docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image
+> docker rm node-app -f        ----// kill docker running
