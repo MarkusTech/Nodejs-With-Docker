@@ -12,6 +12,7 @@
 > docker ps ------ and select the port
 > docker exec -it node-app bash         --- // Open bash for docker
 > docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image       ---// run docker
+> docker logs node-app
 
 
 
@@ -23,3 +24,4 @@
 > docker build -t node-app-image .
 > docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image
 > docker rm node-app -f        ----// kill docker running
+> docker logs node-app         ----// run docker under nodemon
