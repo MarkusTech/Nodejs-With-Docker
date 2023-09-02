@@ -11,5 +11,5 @@
 > docker run -p 5000:5000 -d --name node-app node-app-image      --// RUN DOCKER IMAGE
 > docker ps ------ and select the port
 > docker exec -it node-app bash         --- // Open bash for docker
-> docker run -v %cd%:/app -p 5000:5000 -d --name node-app node-app-image 
+> docker run -v ${pwd}:/app -p 5000:5000 -d --name node-app node-app-image 
 
