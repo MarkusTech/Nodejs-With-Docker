@@ -1,4 +1,4 @@
-# AWS 
+# AWS Cloud
 Cloud Hosting Providers:
 
 Amazon Web Services (AWS): AWS offers a wide range of services, including EC2 for hosting the application, RDS for databases, and S3 for storing assets like images.
