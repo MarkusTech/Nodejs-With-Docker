@@ -6,3 +6,4 @@ SELECT * FROM members WHERE username = 'admin'--' AND password = 'password'
 
 
 practice cyber security
+sql injection
